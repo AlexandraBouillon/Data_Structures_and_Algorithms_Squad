@@ -1,6 +1,6 @@
+# Valid Palindrome II
+
 ## Given a string s, return true if the s can be palindrome after deleting at most one character from it.
-
-
 
 #### Example 1:
 - Input: s = "aba"
@@ -14,7 +14,6 @@
 #### Example 3:
 - Input: s = "abc"
 - Output: false
-
 
 #### Constraints:
 - 1 <= s.length <= 105
