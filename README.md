@@ -22,7 +22,7 @@ git checkout -b 'alexandrab/month_day_year`
 ```
 git add .
 
-git commit -m 'Sharing stratgy and code for Fibonnacci problem'
+git commit -m 'Sharing strategy and code for Fibonnacci problem'
 
 git push origin main
 ```
