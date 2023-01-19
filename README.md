@@ -1,8 +1,8 @@
 # Data_Structures_and_Algorithms_Squad
 
-Welcome and thank you or sharing your time and thoughts!
+Welcome and thank you for sharing your time and thoughts!
 
-We are a community of software engineers who gather to work on problems and share our thoughts on our strategies.
+We are a community of software engineers who gather to work on problems, to listen eachother, and share our strategies.
 
 
 ## Quick Start
