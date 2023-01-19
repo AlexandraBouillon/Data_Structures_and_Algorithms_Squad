@@ -2,7 +2,7 @@
 
 Welcome and thank you for sharing your time and thoughts!
 
-We are a community of software engineers who gather to work on problems, to listen eachother, and share our strategies.
+We are a community of software engineers who gather to work on problems, listen eachother, and share our strategies.
 
 
 ## Quick Start
