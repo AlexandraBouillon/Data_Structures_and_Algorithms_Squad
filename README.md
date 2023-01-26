@@ -1,4 +1,4 @@
-# Data_Structures_and_Algorithms_Squad
+# Data Structures and Algorithms Squad
 
 Welcome and thank you for sharing your time and thoughts!
 
