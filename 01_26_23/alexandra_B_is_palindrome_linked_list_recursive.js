@@ -11,25 +11,27 @@
 //         }
 //         return true;
 //     };
-
-
 // };
+
 
 // ## Option_2
 const is_palindrome_linked_list = (head) => { // [[1,2,2,2,1]]
+    if (!head) return null;
     if (head.length < 0) return false;
-    let rest = head.slice(1,head.length-1); // [2,2,2]
-    let first = head[0]; // [1]
-    let last = head.pop(); // [1]
-    if (first !== last){
-        return false;
-    }
-    else if(head.length >=1){
-        return is_palindrome_linked_list(rest);
-    }
-    return true;
+    if (head.length === 0) return true;
+
+    let rest_of_nodes = head.slice(1, head.length-1); // [2,2,2] -> copy of body minus nodes at first and last index
+    let first_node = head[0]; // [1]
+    let last_node = head.pop(); // [1]
+
+    if (first_node !== last_node) return false; // check for falsey nodes
+
+    else if(head.length >=1) return is_palindrome_linked_list(rest_of_nodes); // recurse
+
+    return true; //
 };
 
+console.log(is_palindrome_linked_list(null)); // null
 console.log(is_palindrome_linked_list([1,2,2,1])); // true
 console.log(is_palindrome_linked_list([1,2])); // false
 console.log(is_palindrome_linked_list([1,2,2,2,1])); // true
