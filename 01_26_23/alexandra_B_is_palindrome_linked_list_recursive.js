@@ -28,7 +28,7 @@ const is_palindrome_linked_list = (head) => { // [[1,2,2,2,1]]
 
     else if(head.length >=1) return is_palindrome_linked_list(rest_of_nodes); // recurse
 
-    return true; //
+    return true; // head is palindromic
 };
 
 console.log(is_palindrome_linked_list(null)); // null
