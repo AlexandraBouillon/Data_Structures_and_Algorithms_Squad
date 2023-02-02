@@ -29,7 +29,7 @@ class Stack {
     remove_node_from_top() {
         if (!this.top_node) return null;
 
-        const temp = this.top_node;
+        const temp_node = this.top_node;
 
         if(this.top_node === this.bottom_node){
             this.bottom_node = null;
