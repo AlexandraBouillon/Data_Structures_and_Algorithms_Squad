@@ -9,6 +9,9 @@
 - Adds head node to the top of a stack.
 - Removes head node from the top of a stack.
 - Never adds or removes from bottom of stack.
+- Actions:
+    - Push: new node added to top
+    - Pop: first node removed from top
 
 ## What is a Queue?
 - The first node added to a queue is the first out (FIFO)
