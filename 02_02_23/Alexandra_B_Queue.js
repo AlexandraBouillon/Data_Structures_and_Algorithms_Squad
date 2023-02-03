@@ -1,4 +1,4 @@
-class Queue_Node {
+export class Queue_Node {
     constructor(value){  // [ ]
         this.node_value = value;
         this.next_node = null;
@@ -6,7 +6,7 @@ class Queue_Node {
 }
 
 
-class Queue {
+export class Queue {
     constructor() {
         this.front_node = null;
         this.back_node = null;
