@@ -1,4 +1,4 @@
-# Stack and Queue
+# Stack VS Queue
 
 - Stacks and queues are abtract data types (ADTs) that obey order with which nodes can be added and removed from a data type
 
@@ -14,6 +14,7 @@
     - Pop: first node removed from top
 
 ## What is a Queue?
+- 🐓,🐢,🐛,🦖,🦕
 - The first node added to a queue is the first out (FIFO)
 - Who: First Node, Last Node
 - Actions:
