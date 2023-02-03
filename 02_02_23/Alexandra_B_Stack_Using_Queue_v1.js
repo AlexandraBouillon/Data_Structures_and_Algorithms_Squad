@@ -1,25 +1,17 @@
 class My_Queue {
     constructor(){
         this.queue = []
-        this.temp_queue = []
     }
     push_element(x) {       // Pushes element x to the back of the queue.
-        while(this.queue.length !== 0) {
-            this.temp_queue.push(this.queue.pop());
-            this.queue.push(x)
-        }
-
-        while(this.temp_queue.length !== 0) {
-            this.queue.push(this.temp_queue.pop())
-        };
+        this.queue.unshift(x);
     };
 
     pop_element() {     // Removes the element from the front of the queue and returns it
-        return this.queue.pop()
+        return this.queue.shift()
     };
 
     peek_at_element() {     // Returns the element at the front of the queue
-        return this.queue[this.queue.length-1]
+        return this.queue[0]
     };
 
     is_empty() {        // Returns true if the queue is empty, false otherwise
