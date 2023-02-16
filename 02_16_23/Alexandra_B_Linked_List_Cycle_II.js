@@ -13,3 +13,5 @@
 const detectCycle = function(head) {
 
 };
+
+console.log(detectCycle());
