@@ -1,4 +1,3 @@
-// WIP
 const pivotIndex = function(nums) {
     if (!nums) return 0;
     if (nums.length-1 % 2 === 0) return -1
