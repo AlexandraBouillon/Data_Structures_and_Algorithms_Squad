@@ -1,19 +1,14 @@
 const pivotIndex = function(nums) {
-    if (!nums) return 0;
-    if (nums.length-1 % 2 === 0) return -1
-    let middle_index = nums.length/2;
-    console.log('middle_index',middle_index);
-    let left_sum = 0;
     let right_sum = 0;
-    for (let i = 0; i < middle_index && i < nums.length; i++) {
-        left_sum +=nums[i];
-        let right_num = nums[middle_index+1+i]
-        right_sum += right_num;
-        console.log('right_num',right_num);
+    let left_sum = 0;
+    nums.forEach(num => right_sum += num)
+    for(let i = 0; i <= nums.length-1; i++) {
+      let num = nums[i];
+      right_sum -= num;
+      if (left_sum === right_sum) return i;
+      left_sum += num;
     }
-    console.log('left_sum',left_sum);
-    console.log('right_sum',right_sum);
-    if (left_sum === right_sum) return middle_index;
+    return -1;
 
 };
 
